@@ -1,0 +1,204 @@
+/*MAIN BEGINNING*/
+
+body {
+    background-color: white;
+}
+
+
+/*MAIN BODY ENDING*/
+
+.down-arrow {
+    width: 60px;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 47%;
+    margin-right: auto;
+}
+
+.wrapper {
+    background-image: url(../../../img/pages/band/band.jpg);
+    width: 100%;
+    height: 750px;
+    top: 0;
+    left: 0;
+    margin-top: -22px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerText {
+    padding-top: 150px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Passion One', cursive;
+}
+
+.subText-wrapper {
+    width: 680px;
+    border-bottom: .5px dashed white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subHeaderText {
+    font-size: 22px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-weight: 300;
+}
+
+.wrapper2 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.internal {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.cover {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.internal-second {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.internal-third {
+	width: 50%;
+    height: auto;
+    float: left;
+    margin-top: -1px;
+}
+
+.wrapper3 {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.projectTitle {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 180px;
+    text-decoration: underline dashed;
+    top: 50px;
+}
+
+.projectParagraph {
+    width: 50%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+
+.process {
+    border: 3px solid black;
+    color: black;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 42%;
+    margin-right: auto;
+    width: 200px;
+}
+
+.process:hover {
+    border: 3px solid black;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    margin-left: 42%;
+    margin-right: auto;
+    /* This timing applies on the way OUT */
+    transition-timing-function: ease-in;
+    width: 200px;
+}
+
+.wrapper4 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.shark-book {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.color-palette {
+    width: 100%;
+    margin: 0;
+}
+
+.sketches {
+    margin-top: -.5px;
+    width: 100%;
+    height: 750px;
+}
+
+
+/*Phone Screen*/
+@media (max-width: 800px) {
+	.wrapper {
+		background: #5B5B5B !important;
+/*
+		background-image: url(../../img/indexBG.jpg) !important;
+		width: auto;
+		background-attachment: scroll;
+*/
+	}
+    .headerText {
+	   margin-top: -20px;
+    }
+}
+
+
+@media only screen and (max-width: 667px) {
+    .wrapper {
+        width: 100%;
+        height: auto;
+    }
+    .headerText {
+        font-size: 38px;
+    }
+    .subText-wrapper {
+        width: 350px;
+    }
+    .subHeaderText {
+        font-size: 15px;
+    }
+    .projectParagraph {
+        width: 300px;
+    }
+    .sketches {
+        height: 300px;
+    }
+    .process {
+        margin-left: 26%;
+    }
+    .process:hover {
+        margin-left: 26%;
+    }
+}

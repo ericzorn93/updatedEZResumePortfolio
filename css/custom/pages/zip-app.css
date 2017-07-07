@@ -1,0 +1,226 @@
+/*MAIN BEGINNING*/
+
+body {
+    background-color: white;
+}
+
+
+/*MAIN BODY ENDING*/
+
+.down-arrow {
+    width: 60px;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 47%;
+    margin-right: auto;
+}
+
+.wrapper {
+    background-image: url(../../../img/pages/zip-app/header-bg.jpg);
+    width: 100%;
+    height: 750px;
+    top: 0;
+    left: 0;
+    margin-top: -22px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerText {
+    padding-top: 150px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Passion One', cursive;
+}
+
+.subText-wrapper {
+    width: 680px;
+    border-bottom: .5px dashed white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subHeaderText {
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-weight: 300;
+}
+
+.wrapper2 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.internal {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.cover {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.internal-second {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.internal-third {
+	width: 50%;
+    height: auto;
+    float: left;
+    margin-top: -1px;
+}
+
+.wrapper3 {
+    width: 100%;
+    height: auto;
+    background-color: #5E5E5C;
+}
+
+.projectTitle {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 180px;
+    text-decoration: underline dashed;
+    top: 50px;
+}
+
+.projectParagraph {
+    width: 50%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+.process {
+    border: 3px solid white;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 42%;
+    margin-right: auto;
+    width: 200px;
+}
+
+.process:hover {
+    border: 3px solid white;
+    color: #5E5E5C;
+    background-color: white;
+    font-size: 22px;
+    margin-left: 42%;
+    margin-right: auto;
+    /* This timing applies on the way OUT */
+    transition-timing-function: ease-in;
+    width: 200px;
+}
+
+.wrapper4 {
+    background-color: #1A1A1A;
+    width: 100%;
+    height: auto;
+}
+
+.shark-book {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.color-palette {
+    width: 100%;
+    margin: 0;
+}
+
+.sketches {
+    margin-top: -.5px;
+    width: 100%;
+    height: 750px;
+}
+
+.embed-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+     }
+     
+     .embed-container iframe,
+     .embed-container object,
+     .embed-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+     }
+
+.videoHead {
+    color: white;
+    font-size: 70px;
+    font-family: 'Passion One', cursive;
+}
+
+
+/*Phone Screen*/
+@media (max-width: 800px) {
+	.wrapper {
+		background: #858B2B !important;
+/*
+		background-image: url(../../img/indexBG.jpg) !important;
+		width: auto;
+		background-attachment: scroll;
+*/
+	}
+}
+
+@media only screen and (max-width: 667px) {
+    .headerText {
+        font-size: 38px;
+    }
+    .subText-wrapper {
+        width: 350px;
+    }
+    .subHeaderText {
+        font-size: 15px;
+    }
+    .projectParagraph {
+        width: 300px;
+    }
+    .sketches {
+        height: 300px;
+    }
+    .process {
+        margin-left: 26%;
+    }
+    .process:hover {
+        margin-left: 26%;
+    }
+    .videoHead {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Passion One', cursive;
+    }
+}
